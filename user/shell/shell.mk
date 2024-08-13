@@ -5,6 +5,7 @@ CFLAGS += -I $(PROJ_ROOT)/user/shell
 # by deleting the source file you can disable
 # the unwanted features
 SRC += $(PROJ_ROOT)/user/shell/shell.c
+SRC += $(PROJ_ROOT)/user/shell/hello.c
 SRC += $(PROJ_ROOT)/user/shell/cat.c
 SRC += $(PROJ_ROOT)/user/shell/clear.c
 SRC += $(PROJ_ROOT)/user/shell/file.c
